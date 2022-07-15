@@ -5,10 +5,11 @@ import {useDispatch , useSelector} from 'react-redux'
 
 function App() {
   const count =  useSelector((state1)=>state1.counter1.count)
+
   const dispath = useDispatch()
 
   const IncrementButton = () =>{
-    dispath(Increment(3))
+    dispath(Increment(2))
   }
   const DecrementButton = ()=>{
     dispath(Decrement(2))

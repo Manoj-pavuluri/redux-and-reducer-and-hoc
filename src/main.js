@@ -13,7 +13,6 @@ const Main = () => {
                 <Route exact path="/onclickCounter" element={<OnclickCounter />} />
                 <Route exact path="/updateComponent" element={<UpdateComponent />} />
             </Routes>
-
         </Router>
     )
 
