@@ -7,6 +7,7 @@ import {store} from './app/store'
 import OnclickCounter from './Hoc/OnclickCounter'
 import HoverCounter from './useReducer/reducer';
 import Main from './main';
+import Component1 from './useContext/component1';
  
 
 
@@ -18,7 +19,8 @@ root.render(
     <App />
     
     </Provider> */}
-    <Main />
+    {/* <Main /> */}
+    <Component1 />
     
   </React.StrictMode>
   
